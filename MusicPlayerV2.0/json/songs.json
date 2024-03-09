@@ -1,0 +1,40 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "name": "Square Hammer",
+        "artist": "Ghost",
+        "albumCover": "./images/popestar.jfif",
+        "songFile": "./music/SquareHammer.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Hellraiser",
+        "artist": "Ozzy Osbourne",
+        "albumCover": "./images/hellraiser.jfif",
+        "songFile": "./music/Hellraiser.mp3"
+      },
+      {
+        "id": 3,
+        "name": "The Rebel Path",
+        "artist": "Marcin Przybyłowicz",
+        "albumCover": "./images/Cyberpunk.jfif",
+        "songFile": "./music/RebelPath.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Song 4",
+        "artist": "Artist 4",
+        "albumCover": "path/to/albumCover4.jpg",
+        "songFile": "path/to/songFile4.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Song 5",
+        "artist": "Artist 5",
+        "albumCover": "path/to/albumCover5.jpg",
+        "songFile": "path/to/songFile5.mp3"
+      }
+    ]
+  }
+  

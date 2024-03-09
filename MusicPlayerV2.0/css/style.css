@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    background-image: url('../images/background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 30px;
+    margin: 15px;
+    flex-direction: column; /* Added this line */
+    justify-content: center;
+    align-items: center;
+    border: 3.5px solid #FFF7AE;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4.5px 4.5px #FEF9CD;
+}
+
+@font-face {
+    font-family: 'Nightmare';
+    src: url(../fonts/Nightmare.ttf);
+}
+
+@font-face {
+    font-family: 'Immortal';
+    src: url(../fonts/IMMORTAL.ttf);
+}
+
+.container h1 {
+    color: #FFF7AE;
+    margin: 0px;
+    font-family: 'Immortal', sans-serif;
+    font-size: auto;
+}
+
+.container h2 {
+    color: #FFF7AE;
+    margin: 0px;
+    font-family: 'Immortal', sans-serif;
+    font-style: italic;
+}
+
+.song-img {
+    width: 100%;
+    height: 375px;
+    margin: 10px 0;
+    border: 2.5px solid #FFF7AE;
+    border-radius: 15px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 5px #FEF9CD;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #FFF7AE;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:black;
+    box-shadow: 0 5px 10px #FEF9CD;
+    cursor: pointer;
+ }
+
+ .controls div:nth-child(2) {
+    transform: scale(1.3);
+}
+
+.controls div:hover {
+    background: #FEF9CD;
+    box-shadow: 0 5px 10px #FFF7AE;
+}
+
+.controls div:active {
+    background: #FEF9CD;
+    box-shadow: 0 5px 10px #FFF7AE;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 75%;
+    height: 6px;
+    background: #FFF7AE;
+    box-shadow: 0 4px 4px #FEF9CD;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #FFF7AE;
+    box-shadow: 0 3px 3px #FEF9CD;
+}
+
+#progress::-webkit-slider-thumb:hover {
+    border: 8px solid #FEF9CD;
+    box-shadow: 0 3px 3px #FFF7AE;
+}
+
